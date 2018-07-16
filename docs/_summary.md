@@ -53,18 +53,22 @@
   * [Userspace](feature_userspace.md)
 
 * [Keycodes](keycodes.md)
-  * [Backlight](feature_backlight.md#backlight-keycodes)
   * [Basic](keycodes_basic.md)
-  * [Bluetooth](feature_bluetooth.md#bluetooth-keycodes)
+  * [Quantum](quantum_keycodes.md)
+  * [Audio](feature_audio.md#audio-keycodes)
+  * [Backlight](feature_backlight.md#backlight-keycodes)
   * [Bootmagic](feature_bootmagic.md#bootmagic-keycodes)
+  * [Bluetooth](feature_bluetooth.md#bluetooth-keycodes)
   * [Layer Switching](feature_advanced_keycodes.md#switching-and-toggling-layers)
   * [Mod+Key](feature_advanced_keycodes.md#modifier-keys)
   * [Mod Tap](feature_advanced_keycodes.md#mod-tap)
+  * [Mouse Keys](feature_mouse_keys.md#mapping-mouse-actions-to-keyboard-keys)
   * [One Shot Keys](feature_advanced_keycodes.md#one-shot-keys)
-  * [Quantum](quantum_keycodes.md)
   * [RGB Light](feature_rgblight.md#rgblight-keycodes)
+  * [RGB Matrix](feature_rgb_matrix.md#keycodes)
   * [Shifted Keys](feature_advanced_keycodes.md#shifted-keycodes)
   * [Stenography](feature_stenography.md#keycode-reference)
+  * [Swap Hands](feature_swap_hands.md#swap-keycodes)
   * [Thermal Printer](feature_thermal_printer.md#thermal-printer-keycodes)
   * [US ANSI Shifted Keys](keycodes_us_ansi_shifted.md)
 
@@ -87,3 +91,12 @@
 
 * Other Topics
   * [Using Eclipse with QMK](eclipse.md)
+
+* QMK Internals (In Progress)
+  * [Defines](internals_defines.md)
+  * [Input Callback Reg](internals_input_callback_reg.md)
+  * [Midi Device](internals_midi_device.md)
+  * [Midi Device Setup Process](internals_midi_device_setup_process.md)
+  * [Midi Util](internals_midi_util.md)
+  * [Send Functions](internals_send_functions.md)
+  * [Sysex Tools](internals_sysex_tools.md)
